@@ -15,18 +15,22 @@ Skills Demonstrated
 Tasks Performed
 1. Reviewed Existing Permissions
 Used the following command to display detailed file and directory permissions:
+
 ls -la
 
 2. Modified File Permissions
 Removed write access for others on project_k.txt:
+
 chmod o-w project_k.txt
 
 3. Updated Hidden File Permissions
 Modified permissions on .project_x.txt to remove write access while maintaining appropriate read permissions:
+
 chmod u-w,g+r,g-w .project_x.txt
 
 4. Restricted Directory Access
 Removed group execute permissions from the drafts directory:
+
 chmod g-x drafts
 
 Files Included
