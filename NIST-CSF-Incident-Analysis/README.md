@@ -1,14 +1,14 @@
-NIST CSF Incident Analysis
+## NIST CSF Incident Analysis
 
-Project Overview
+## Project Overview
 
 This project applies the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) to analyze a Distributed Denial of Service (DDoS) attack against a company’s internal network.
 
-Scenario
+## Scenario
 
 A malicious actor launched an ICMP flood DDoS attack through an improperly configured firewall, disrupting network services for approximately two hours.
 
-Framework Applied
+## Framework Applied
 
 * Identify
 * Protect
@@ -16,14 +16,14 @@ Framework Applied
 * Respond
 * Recover
 
-Key Findings
+## Key Findings
 
 * The attack exploited a firewall configuration weakness.
 * Excessive ICMP traffic overwhelmed network resources.
 * Critical services were temporarily disrupted.
 * Improved monitoring and filtering controls were required.
 
-Security Improvements
+## Security Improvements
 
 * ICMP rate limiting
 * Source IP verification
@@ -31,7 +31,7 @@ Security Improvements
 * Continuous network monitoring
 * Enhanced incident response procedures
 
-Skills Demonstrated
+## Skills Demonstrated
 
 * NIST Cybersecurity Framework (CSF)
 * Incident Analysis
@@ -41,6 +41,6 @@ Skills Demonstrated
 * Security Monitoring
 * Incident Response Planning
 
-Files
+## Files
 
 * Incident-Report-Analysis.pdf
