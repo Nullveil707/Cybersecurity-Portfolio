@@ -1,10 +1,10 @@
-Linux File Permissions Management
+## Linux File Permissions Management
 
-Project Overview
+## Project Overview
 
 This project demonstrates the use of Linux commands to examine and modify file and directory permissions. The objective was to ensure that file permissions aligned with organizational security requirements by removing unauthorized access and restricting access to sensitive resources.
 
-Skills Demonstrated
+## Skills Demonstrated
 * Linux command line navigation
 * File permission auditing
 * Permission management using chmod
@@ -12,28 +12,28 @@ Skills Demonstrated
 * Directory access control
 * Principle of least privilege
 
-Tasks Performed
-1. Reviewed Existing Permissions
+## Tasks Performed
+### 1. Reviewed Existing Permissions
 Used the following command to display detailed file and directory permissions:
 
 ls -la
 
-2. Modified File Permissions
+### 2. Modified File Permissions
 Removed write access for others on project_k.txt:
 
 chmod o-w project_k.txt
 
-3. Updated Hidden File Permissions
+### 3. Updated Hidden File Permissions
 Modified permissions on .project_x.txt to remove write access while maintaining appropriate read permissions:
 
 chmod u-w,g+r,g-w .project_x.txt
 
-4. Restricted Directory Access
+### 4. Restricted Directory Access
 Removed group execute permissions from the drafts directory:
 
 chmod g-x drafts
 
-Files Included
+## Files Included
 * Linux File Permissions Report
 * Screenshot of initial permissions
 * Screenshot of permission modifications
