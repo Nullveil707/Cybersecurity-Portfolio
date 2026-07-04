@@ -1,37 +1,13 @@
 # Home Asset Inventory
 
-## Project Overview
+This project was completed as part of the Google Cybersecurity Certificate. The activity focused on creating a simple asset inventory for a home office network and thinking through which devices may need stronger protection.
 
-This project demonstrates the process of identifying, documenting, and classifying assets connected to a home office network. Asset inventories help organizations understand which devices require protection and prioritize security based on the sensitivity of the information they store or process.
+For this inventory, I identified devices connected to a home network, including a router, desktop computer, guest smartphone, printer, external hard drive, and webcam. I recorded details such as who owns each device, where it is located, how often it connects to the network, and any security concerns related to the device.
 
-## Objectives
+This project helped me understand why asset management is important in cybersecurity. A device may seem small or low-risk, but if it connects to a network, it can still become a possible entry point for an attacker. Devices that store business files or backups, such as an external hard drive, need stronger protection than devices with limited or temporary access.
 
-* Identify devices connected to a home network.
-* Document ownership, location, and network access.
-* Evaluate the security characteristics of each asset.
-* Classify assets according to their sensitivity level.
+The main takeaway from this activity is that security planning starts with knowing what assets exist. An asset inventory helps identify what needs to be protected, how sensitive each asset is, and where security controls should be prioritized.
 
-## Skills Demonstrated
+## File
 
-* Asset inventory management
-* Asset classification
-* Risk assessment
-* Information security
-* Network security fundamentals
-
-## Assets Evaluated
-
-* Network router
-* Desktop computer
-* Guest smartphone
-* Printer
-* External hard drive
-* Webcam
-
-## Key Findings
-
-The external hard drive was classified as **Restricted** because it may contain sensitive business data and backups. Devices such as the printer and webcam were classified as **Internal-only** because they should only be accessible to authorized users within the home network. The inventory demonstrates how asset classification supports better security planning and risk management.
-
-## Summary
-
-Creating an asset inventory is an important first step in protecting organizational information. By identifying devices, documenting their characteristics, and assigning sensitivity levels, organizations can prioritize security controls and reduce the risk of unauthorized access or data loss.
+* `Assets Classification.xlsx`
